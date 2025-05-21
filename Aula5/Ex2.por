@@ -1,11 +1,15 @@
 programa {
-
-  
-  
   funcao inicio() {
     
-    cadeia nome = "ana"
-    inteiro idade = 25
+    cadeia nome
+    inteiro idade
+
+    escreva("Qual é o seu nome: ")
+    leia(nome)
+
+    escreva("Qual é a sua idade: ")
+    leia(idade)
+
     mensagemPersonalizada(nome, idade)
   }
     funcao mensagemPersonalizada(cadeia nome, inteiro idade) {
