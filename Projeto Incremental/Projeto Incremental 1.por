@@ -36,7 +36,7 @@ programa {
         caso 5:
           escreva("Opção Buscar Conta selecionada.\n")
           pare
-        default:
+        caso contrario:
           escreva("Opção inválida. Tente novamente.\n")
       }
 
